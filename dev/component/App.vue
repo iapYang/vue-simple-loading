@@ -26,6 +26,7 @@ export default {
                 'wave',
                 'wandering-cubes',
                 'pulse',
+                'chasing-dots',
             ],
         };
     },
