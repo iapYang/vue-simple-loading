@@ -1,11 +1,6 @@
 <template lang="html">
     <div class="vue-loading-container">
-        <rotating-plane v-if="spinner === 'rotating-plane'"></rotating-plane>
-        <fading-circle v-if="spinner === 'fading-circle'"></fading-circle>
-        <double-bounce v-if="spinner === 'double-bounce'"></double-bounce>
-        <wave v-if="spinner === 'wave'"></wave>
-        <wandering-cubes v-if="spinner === 'wandering-cubes'"></wandering-cubes>
-        <pulse v-if="spinner === 'pulse'"></pulse>
+        <div :is="spinner"></div>
     </div>
 </template>
 
