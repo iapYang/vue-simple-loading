@@ -52,6 +52,9 @@ html,body {
         width: 60px;
         height: 60px;
         margin: 40px auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 </style>
