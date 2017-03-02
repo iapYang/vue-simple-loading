@@ -16,7 +16,6 @@ export default {
 .sk-wandering-cubes {
   $animationDuration: 1.8s;
 
-  margin: $spinkit-spinner-margin;
   width: $spinkit-size;
   height: $spinkit-size;
   position: relative;
