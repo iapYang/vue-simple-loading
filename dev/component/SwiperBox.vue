@@ -72,7 +72,7 @@ export default {
         }
 
         .swiper-button-next, .swiper-button-prev {
-            background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhRE9DVFlQRSBzdmcgUFVCTElDICItLy9XM0MvL0RURCBTVkcgMS4xLy9FTiIgImh0dHA6Ly93d3cudzMub3JnL0dyYXBoaWNzL1NWRy8xLjEvRFREL3N2ZzExLmR0ZCI+DQo8c3ZnIHZlcnNpb249IjEuMSIgaWQ9IkxheWVyXzEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4Ig0KCSB3aWR0aD0iMThweCIgaGVpZ2h0PSIyNXB4IiB2aWV3Qm94PSIwIDAgMTggMjUiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDE4IDI1IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBmaWxsPSIjRkZGRkZGIiBkPSJNMTcuMzM4LDEyLjQ4NWMtNC4xNTYsNC4xNTYtOC4zMTIsOC4zMTItMTIuNDY4LDEyLjQ2Nw0KCWMtMS40MDItMS40MDItMi44MDUtMi44MDQtNC4yMDctNC4yMDZjMi43NTYtMi43NTcsNS41MTMtNS41MTQsOC4yNy04LjI3QzYuMTc2LDkuNzIsMy40MTksNi45NjMsMC42NjMsNC4yMDcNCglDMi4wNjUsMi44MDUsMy40NjgsMS40MDIsNC44NywwQzQuODEyLTAuMDU5LDE3LjQyNSwxMi41NjIsMTcuMzM4LDEyLjQ4NUwxNy4zMzgsMTIuNDg1eiIvPg0KPC9zdmc+DQo=);
+            background-image: url('../image/arrow.svg');
         }
 
         .swiper-button-prev {
