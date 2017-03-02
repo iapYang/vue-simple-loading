@@ -1,7 +1,5 @@
 <template lang="html">
     <div class="app-container">
-        <message></message>
-        <controller></controller>
         <div
          v-for="spinner,index in spinners"
          class="loading">
@@ -12,8 +10,6 @@
 </template>
 
 <script>
-import Message from './Message.vue';
-import Controller from './Controller.vue';
 import VueLoading from './VueLoading.vue';
 
 export default {
@@ -28,12 +24,11 @@ export default {
                 'pulse',
                 'chasing-dots',
                 'three-bounce',
+                'circles',
             ],
         };
     },
     components: {
-        Message,
-        Controller,
         VueLoading,
     },
 };

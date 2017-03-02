@@ -13,6 +13,7 @@ import WanderingCubes from './VueLoaing/WanderingCubes.vue';
 import Pulse from './VueLoaing/Pulse.vue';
 import ChasingDots from './VueLoaing/ChasingDots.vue';
 import ThreeBounce from './VueLoaing/ThreeBounce.vue';
+import Circles from './VueLoaing/Circles.vue';
 
 export default {
     components: {
@@ -24,6 +25,7 @@ export default {
         Pulse,
         ChasingDots,
         ThreeBounce,
+        Circles,
     },
     props: ['spinner'],
 };
