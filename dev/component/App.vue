@@ -2,7 +2,7 @@
     <div class="app-container">
         <message></message>
         <controller></controller>
-
+        <vue-loading></vue-loading>
         <router-view></router-view>
     </div>
 </template>
@@ -10,11 +10,13 @@
 <script>
 import Message from './Message.vue';
 import Controller from './Controller.vue';
+import VueLoading from './VueLoading.vue';
 
 export default {
     components: {
         Message,
         Controller,
+        VueLoading,
     },
 };
 </script>
@@ -24,6 +26,13 @@ export default {
 @import "../style/mixin";
 
 @include font-face("Lato-Regular");
+
+html,body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
 
 .app-container{
     background-color: red;
