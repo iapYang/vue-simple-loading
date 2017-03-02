@@ -24,8 +24,8 @@ export default {
     margin: $spinkit-spinner-margin;
 
     .sk-cube {
-        width: 33.33%;
-        height: 33.33%;
+        width: calc(100% / 3);
+        height: calc(100% / 3);
         background-color: $spinkit-spinner-color;
         float: left;
         animation: sk-cubeGridScaleDelay 1.3s infinite ease-in-out;

@@ -32,6 +32,7 @@ export default {
                 nextButton: '.swiper-button-next',
                 prevButton: '.swiper-button-prev',
                 mousewheelControl: true,
+                grabCursor : true,
             },
             spinners: [
                 'rotating-plane',
