@@ -15,6 +15,7 @@ import ThreeBounce from './VueLoaing/ThreeBounce.vue';
 import Circles from './VueLoaing/Circles.vue';
 import CubeGrid from './VueLoaing/CubeGrid.vue';
 import FadingCircle from './VueLoaing/FadingCircle.vue';
+import FoldingCube from './VueLoaing/FoldingCube.vue';
 
 export default {
     components: {
@@ -28,6 +29,7 @@ export default {
         Circles,
         CubeGrid,
         FadingCircle,
+        FoldingCube,
     },
     props: ['spinner'],
 };

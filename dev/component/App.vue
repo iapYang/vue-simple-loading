@@ -26,6 +26,7 @@ export default {
                 'circles',
                 'cube-grid',
                 'fading-circle',
+                'folding-cube',
             ],
         };
     },
