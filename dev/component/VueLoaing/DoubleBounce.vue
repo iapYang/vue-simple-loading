@@ -14,29 +14,34 @@ export default {
 @import "./style/variables";
 
 .sk-double-bounce {
-  width: $spinkit-size;
-  height: $spinkit-size;
-  position: relative;
+    width: $spinkit-size;
+    height: $spinkit-size;
+    position: relative;
 
-  .sk-child {
-    width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    background-color: $spinkit-spinner-color;
-    opacity: 0.6;
-    position: absolute;
-    top: 0;
-    left: 0;
-    animation: sk-doubleBounce 2.0s infinite ease-in-out;
-  }
+    .sk-child {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        background-color: $spinkit-spinner-color;
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        left: 0;
+        animation: sk-doubleBounce 2.0s infinite ease-in-out;
+    }
 
-  .sk-double-bounce2 {
-    animation-delay: -1.0s;
-  }
+    .sk-double-bounce2 {
+        animation-delay: -1.0s;
+    }
 }
-
 @keyframes sk-doubleBounce {
-  0%, 100% { transform: scale(0) }
-  50% { transform: scale(1.0) }
+    0%,
+    100% {
+        transform: scale(0);
+    }
+
+    50% {
+        transform: scale(1.0);
+    }
 }
 </style>
