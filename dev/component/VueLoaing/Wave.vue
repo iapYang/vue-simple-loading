@@ -24,7 +24,7 @@ export default {
   width: $spinkit-size * 1.25;
   height: $spinkit-size;
   text-align: center;
-  font-size: 10px;
+  font-size: 0px;
 
   .sk-rect {
     background-color: $spinkit-spinner-color;
