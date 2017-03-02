@@ -27,6 +27,7 @@ export default {
                 'wandering-cubes',
                 'pulse',
                 'chasing-dots',
+                'three-bounce',
             ],
         };
     },
