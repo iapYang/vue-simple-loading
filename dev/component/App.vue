@@ -19,7 +19,14 @@ import VueLoading from './VueLoading.vue';
 export default {
     data() {
         return {
-            spinners: ['fading-circle', 'rotating-plane', 'double-bounce', 'wave'],
+            spinners: [
+                'fading-circle',
+                'rotating-plane',
+                'double-bounce',
+                'wave',
+                'wandering-cubes',
+                'pulse',
+            ],
         };
     },
     components: {
