@@ -5,6 +5,9 @@
              v-for="spinner,index in spinners"
              :key="index"
             >
+                <div class="title">
+                    <span>{{ spinner }}</span>
+                </div>
                 <div class="vue-loading-box">
                      <vue-loading :spinner="spinner"></vue-loading>
                 </div>
@@ -28,6 +31,7 @@ export default {
                 paginationClickable: true,
                 nextButton: '.swiper-button-next',
                 prevButton: '.swiper-button-prev',
+                mousewheelControl: true,
             },
             spinners: [
                 'rotating-plane',
@@ -57,7 +61,7 @@ export default {
     position: relative;
     width: 100%;
     height: 100%;
-    background-color: #fff;
+    background-color: #d35400;
 
     .swiper-container {
         width: 100%;
@@ -117,17 +121,32 @@ export default {
             }
 
             &:nth-child(10) {
-                background-color: #d35400;
+                background-color: #2c3e50;
             }
 
             &:nth-child(11) {
-                background-color: #2c3e50;
+                background-color: #d35400;
             }
 
             &:nth-child(12) {
                 background-color: #1abc9c;
             }
         }
+    }
+}
+
+.title {
+    position: absolute;
+    top: 20px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+    span {
+        font-size: 40px;
+        font-family: "Lato-Regular";
+        color: #fff;
+        text-transform: capitalize;
     }
 }
 
