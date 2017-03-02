@@ -2,7 +2,9 @@
     <div class="app-container">
         <message></message>
         <controller></controller>
-        <vue-loading></vue-loading>
+        <div class="loading">
+            <vue-loading></vue-loading>
+        </div>
         <router-view></router-view>
     </div>
 </template>
@@ -36,5 +38,13 @@ html,body {
 
 .app-container{
     background-color: red;
+
+    .loading {
+        position: relative;
+        background-color: #000;
+        width: 60px;
+        height: 60px;
+        margin: 0 auto;
+    }
 }
 </style>
