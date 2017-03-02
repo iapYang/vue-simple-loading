@@ -30,7 +30,7 @@ export default {
     background-color: $spinkit-spinner-color;
     height: 100%;
     width: 6px;
-    margin: 0 3px 0 0
+    margin: 0 3px 0 0;
     display: inline-block;
     animation: sk-waveStretchDelay $animationDuration infinite ease-in-out;
   }
