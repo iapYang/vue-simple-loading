@@ -1,5 +1,5 @@
 <template lang="html">
-    <div class="sk-fading-circle">
+    <div class="sk-fading-circle sk-container">
         <div
          v-for="n in 12"
          :key="n"
@@ -18,9 +18,7 @@ export default {
 </script>
 
 <style lang="scss">
-$spinkit-spinner-margin: 40px auto !default;
-$spinkit-size: 40px !default;
-$spinkit-spinner-color: #f1f1f1 !default;
+@import "./style/variables";
 
 .sk-fading-circle {
     $circleCount: 12;
@@ -28,12 +26,7 @@ $spinkit-spinner-color: #f1f1f1 !default;
 
     width: $spinkit-size;
     height: $spinkit-size;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
-    font-size: 0;
+    position: relative;
 
     .sk-circle {
       width: 100%;

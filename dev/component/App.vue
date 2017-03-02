@@ -3,7 +3,10 @@
         <message></message>
         <controller></controller>
         <div class="loading">
-            <vue-loading></vue-loading>
+            <vue-loading spinner="fading-circle"></vue-loading>
+        </div>
+        <div class="loading">
+            <vue-loading spinner="rotating-plane"></vue-loading>
         </div>
         <router-view></router-view>
     </div>
