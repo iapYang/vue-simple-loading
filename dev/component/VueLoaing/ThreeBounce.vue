@@ -11,7 +11,7 @@ export default {
 };
 </script>
 
-<style lang="scss" coped>
+<style lang="scss" scoped>
 @import "./style/variables";
 
 .sk-three-bounce {
