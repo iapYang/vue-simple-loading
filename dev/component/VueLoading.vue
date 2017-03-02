@@ -26,14 +26,5 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-
-        // .sk-container {
-        //     position: absolute;
-        //     left: 50%;
-        //     top: 50%;
-        //     transform: translate(-50%, -50%);
-        //     display: inline-block;
-        //     font-size: 0;
-        // }
     }
 </style>
