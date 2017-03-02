@@ -2,12 +2,11 @@
     <div class="app-container">
         <message></message>
         <controller></controller>
-        <div class="loading">
-            <vue-loading spinner="fading-circle"></vue-loading>
-        </div>
-        <div class="loading">
-            <vue-loading spinner="rotating-plane"></vue-loading>
-        </div>
+        <div
+         v-for="spinner,index in spinners"
+         class="loading">
+             <vue-loading :spinner="spinner"></vue-loading>
+         </div>
         <router-view></router-view>
     </div>
 </template>
@@ -18,6 +17,11 @@ import Controller from './Controller.vue';
 import VueLoading from './VueLoading.vue';
 
 export default {
+    data() {
+        return {
+            spinners: ['fading-circle', 'rotating-plane', 'double-bounce'],
+        };
+    },
     components: {
         Message,
         Controller,
@@ -47,7 +51,7 @@ html,body {
         background-color: #000;
         width: 60px;
         height: 60px;
-        margin: 0 auto;
+        margin: 40px auto;
     }
 }
 </style>
