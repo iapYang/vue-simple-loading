@@ -16,7 +16,6 @@ export default {
     data() {
         return {
             spinners: [
-                'fading-circle',
                 'rotating-plane',
                 'double-bounce',
                 'wave',
@@ -25,6 +24,8 @@ export default {
                 'chasing-dots',
                 'three-bounce',
                 'circles',
+                'cube-grid',
+                'fading-circle',
             ],
         };
     },

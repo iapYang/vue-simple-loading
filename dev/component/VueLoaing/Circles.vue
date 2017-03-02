@@ -3,8 +3,8 @@
         <div
          v-for="n in 12"
          class="sk-child"
-         :class="'sk-circle' + (n + 1)"
-         key="n"     
+         :class="'sk-circle' + n"
+         :key="n"
          ></div>
     </div>
 </template>

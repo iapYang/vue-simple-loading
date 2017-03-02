@@ -5,7 +5,6 @@
 </template>
 
 <script>
-import FadingCircle from './VueLoaing/FadingCircle.vue';
 import RotatingPlane from './VueLoaing/RotatingPlane.vue';
 import DoubleBounce from './VueLoaing/DoubleBounce.vue';
 import Wave from './VueLoaing/Wave.vue';
@@ -14,10 +13,11 @@ import Pulse from './VueLoaing/Pulse.vue';
 import ChasingDots from './VueLoaing/ChasingDots.vue';
 import ThreeBounce from './VueLoaing/ThreeBounce.vue';
 import Circles from './VueLoaing/Circles.vue';
+import CubeGrid from './VueLoaing/CubeGrid.vue';
+import FadingCircle from './VueLoaing/FadingCircle.vue';
 
 export default {
     components: {
-        FadingCircle,
         RotatingPlane,
         DoubleBounce,
         Wave,
@@ -26,6 +26,8 @@ export default {
         ChasingDots,
         ThreeBounce,
         Circles,
+        CubeGrid,
+        FadingCircle,
     },
     props: ['spinner'],
 };

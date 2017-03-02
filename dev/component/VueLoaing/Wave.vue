@@ -3,7 +3,8 @@
         <div
          class="sk-rect"
          v-for="n in 5"
-         :class="'sk-rect' + (n + 1)">
+         :class="'sk-rect' + n"
+         :key="n">
         </div>
     </div>
 </template>
