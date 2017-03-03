@@ -4,16 +4,10 @@ const webpack = require('webpack');
 const postcssConfig = require('./postcss.config.js');
 
 const jsFiles = glob.sync('./dev/script/*.js');
-jsFiles.push('./dev/component/VueLoading.vue');
-
 const entry = {};
 
 jsFiles.forEach((file, i) => {
-    if (file.includes('.vue')) {
-        entry[path.basename('vue.loading.min', '.js')] = file;
-    } else {
-        entry[path.basename(file, '.js')] = file;
-    }
+    entry[path.basename(file, '.js')] = file;
 });
 
 module.exports = {
