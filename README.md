@@ -28,9 +28,9 @@ This project is built by vue 2.2.1, so you should update vue to at least version
 
    ```javascript
    components: {
-           VueLoading,
-           swiper,
-           swiperSlide,
+     VueLoading,
+     swiper,
+     swiperSlide,
    },
    ```
 
@@ -45,20 +45,22 @@ This project is built by vue 2.2.1, so you should update vue to at least version
    For now, there are 11 styles of loading.
 
    ```javascript
-   spinners: ['rotating-plane',
-              'double-bounce',
-              'wave',
-              'wandering-cubes',
-              'pulse',
-              'chasing-dots',
-              'three-bounce',
-              'circles',
-              'cube-grid',
-              'fading-circle',
-              'folding-cube'],
+   spinners: [
+     'rotating-plane',
+     'double-bounce',
+     'wave',
+     'wandering-cubes',
+     'pulse',
+     'chasing-dots',
+     'three-bounce',
+     'circles',
+     'cube-grid',
+     'fading-circle',
+     'folding-cube'
+   ],
    ```
 
-   [check the style]((https://iapyang.github.io/vue-loading/#/)) 
+   [Check it](https://iapyang.github.io/vue-loading/#/)
 
    Add the props, e.g.
 
