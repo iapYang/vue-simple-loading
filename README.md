@@ -16,7 +16,7 @@ This project is built by vue 2.2.1, so you should update vue to at least version
 
    then command line:
 
-   `npm install 'vue-loading' -D `
+   `npm install 'vue-loading' `
 
 2. #### Import
 
