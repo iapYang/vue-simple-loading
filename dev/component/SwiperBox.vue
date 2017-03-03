@@ -157,4 +157,10 @@ export default {
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 560px) {
+    .title span {
+        font-size: 30px;
+    }
+}
 </style>
