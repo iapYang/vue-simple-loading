@@ -5,17 +5,17 @@
 </template>
 
 <script>
-import RotatingPlane from './VueLoaing/RotatingPlane.vue';
-import DoubleBounce from './VueLoaing/DoubleBounce.vue';
-import Wave from './VueLoaing/Wave.vue';
-import WanderingCubes from './VueLoaing/WanderingCubes.vue';
-import Pulse from './VueLoaing/Pulse.vue';
-import ChasingDots from './VueLoaing/ChasingDots.vue';
-import ThreeBounce from './VueLoaing/ThreeBounce.vue';
-import Circles from './VueLoaing/Circles.vue';
-import CubeGrid from './VueLoaing/CubeGrid.vue';
-import FadingCircle from './VueLoaing/FadingCircle.vue';
-import FoldingCube from './VueLoaing/FoldingCube.vue';
+import RotatingPlane from './VueLoading/RotatingPlane.vue';
+import DoubleBounce from './VueLoading/DoubleBounce.vue';
+import Wave from './VueLoading/Wave.vue';
+import WanderingCubes from './VueLoading/WanderingCubes.vue';
+import Pulse from './VueLoading/Pulse.vue';
+import ChasingDots from './VueLoading/ChasingDots.vue';
+import ThreeBounce from './VueLoading/ThreeBounce.vue';
+import Circles from './VueLoading/Circles.vue';
+import CubeGrid from './VueLoading/CubeGrid.vue';
+import FadingCircle from './VueLoading/FadingCircle.vue';
+import FoldingCube from './VueLoading/FoldingCube.vue';
 
 export default {
     components: {
