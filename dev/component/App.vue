@@ -1,12 +1,14 @@
 <template lang="html">
     <div class="app-container">
-        <swiper-box></swiper-box>
+        <!-- <swiper-box></swiper-box> -->
+        <vue-loading spinner="circles"></vue-loading>
         <router-view></router-view>
     </div>
 </template>
 
 <script>
 import SwiperBox from './SwiperBox.vue';
+import VueLoading from '../script/vue-loading.js';
 
 export default {
     data() {
@@ -16,6 +18,7 @@ export default {
     },
     components: {
         SwiperBox,
+        VueLoading,
     },
 };
 </script>
