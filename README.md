@@ -6,9 +6,9 @@ All the things I do is built it as a vue component.
 
 This project is built by vue 2.2.1, so you should update vue to at least version 2.
 
-#### Usage
+### Usage
 
-1. ##### NPM
+1. #### NPM
 
    package.json:
 
@@ -18,7 +18,7 @@ This project is built by vue 2.2.1, so you should update vue to at least version
 
    `npm install 'vue-loading' -D `
 
-2. ##### Import
+2. #### Import
 
    In your .vue files, use follow code to include it
 
@@ -38,7 +38,7 @@ This project is built by vue 2.2.1, so you should update vue to at least version
 
    `<vue-loading></vue-loading>`
 
-3. ##### Add spinner props
+3. #### Add spinner props
 
    The loading style is defined by spinner.
 
