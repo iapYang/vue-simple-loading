@@ -1,3 +1,3 @@
-const MyComponent = require('../component/VueLoading.vue');
+import VueLoading from '../component/VueLoading.vue';
 
-module.exports = MyComponent;
+export default VueLoading;
