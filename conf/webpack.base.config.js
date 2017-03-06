@@ -14,8 +14,7 @@ module.exports = {
     entry,
     output: {
         path: path.join(process.cwd(), 'dist'),
-        filename: 'vue-loading.js',
-        library: 'VueLoading',
+        filename: 'index.js',
         libraryTarget: 'umd',
     },
     module: {

@@ -1,8 +1,8 @@
 {
-  "name": "vue-loading",
+  "name": "vue-simple-loading",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/vue-loading.js",
+  "main": "dist/index.js",
   "scripts": {
     "dev": "webpack-dev-server --progress --config ./conf/webpack.dev.config.js",
     "build": "webpack --progress --config ./conf/webpack.prod.config.js",
@@ -10,7 +10,19 @@
     "update-json": "ncu -a",
     "update-package": "npm update"
   },
-  "author": "",
+  "author": {
+    "name": "iapyang",
+    "email": "yklorse@gmail.com"
+  },
+  "keywords": [
+    "vue",
+    "vue components",
+    "loading"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iapYang/vue-simple-loading.git"
+  },
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.23.1",
