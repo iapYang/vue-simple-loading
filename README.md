@@ -10,13 +10,13 @@ This project is built by vue 2.2.1, so you should update vue to at least version
 
 ### NPM
 
-`npm install 'vue-loading' -D ` 
+`npm install 'vue-simple-loading' -D ` 
 
 ### Import
 
 In your .vue files, use follow code to include it
 
-`import VueLoading from 'vue-loading';`
+`import VueLoading from 'vue-simple-loading';`
 
 Add it to components
 
