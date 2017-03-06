@@ -1,24 +1,18 @@
-# vue-loading
+# vue-simple-loading
 
-Thanks for [tobiasahlin/SpinKit](https://github.com/tobiasahlin). The css3 animation is copied from it.
+Thanks for [tobiasahlin/SpinKit](https://github.com/tobiasahlin/SpinKit). The css3 animation is copied from it.
 
 All the things I do is built it as a vue component.
 
 This project is built by vue 2.2.1, so you should update vue to at least version 2.
 
-### Usage
+## Usage
 
-1. #### NPM
+1. ### NPM
 
-   package.json:
+   `npm install 'vue-loading' -D ` 
 
-   `"vue-loading": "github:iapYang/vue-loading"`
-
-   then command line:
-
-   `npm install 'vue-loading' `
-
-2. #### Import
+2. ### Import
 
    In your .vue files, use follow code to include it
 
@@ -29,8 +23,6 @@ This project is built by vue 2.2.1, so you should update vue to at least version
    ```javascript
    components: {
      VueLoading,
-     swiper,
-     swiperSlide,
    },
    ```
 
@@ -38,7 +30,7 @@ This project is built by vue 2.2.1, so you should update vue to at least version
 
    `<vue-loading></vue-loading>`
 
-3. #### Add spinner props
+3. ### Add spinner props
 
    The loading style is defined by spinner.
 
@@ -60,9 +52,9 @@ This project is built by vue 2.2.1, so you should update vue to at least version
    ],
    ```
 
-   [Check it](https://iapyang.github.io/vue-loading/#/)
+   [Check it](https://iapyang.github.io/vue-simple-loading/#/)
 
-   Add the props, e.g.
+   Add the 'spinner' prop, e.g.
 
    `<vue-loading spinner="circles"></vue-loading>`
 
