@@ -36,6 +36,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+    @import '../../style/reset';
     .vue-loading-container {
         position: relative;
         display: inline-block;
