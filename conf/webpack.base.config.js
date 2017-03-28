@@ -3,8 +3,18 @@ const glob = require('glob');
 const webpack = require('webpack');
 const postcssConfig = require('./postcss.config.js');
 
+const fontPath = path.resolve(process.cwd(), 'dev/font');
+const picPath = path.resolve(process.cwd(), 'dev/image');
+
 const jsFiles = glob.sync('./dev/script/*.js');
 const entry = {};
+const eslintLoader = {
+    loader: 'eslint-loader',
+    options: {
+        failOnWarning: true,
+        failOnError: true,
+    },
+};
 
 jsFiles.forEach((file, i) => {
     entry[path.basename(file, '.js')] = file;
@@ -14,8 +24,7 @@ module.exports = {
     entry,
     output: {
         path: path.join(process.cwd(), 'dist'),
-        filename: 'index.js',
-        libraryTarget: 'umd',
+        filename: '[name].js',
     },
     module: {
         rules: [
@@ -23,13 +32,7 @@ module.exports = {
                 test: /\.js(x)?$/,
                 use: [
                     'babel-loader',
-                    {
-                        loader: 'eslint-loader',
-                        options: {
-                            failOnWarning: true,
-                            failOnError: true,
-                        },
-                    },
+                    eslintLoader,
                 ],
                 exclude: /node_module/,
             },
@@ -37,7 +40,7 @@ module.exports = {
                 test: /\.vue$/,
                 use: [
                     'vue-loader',
-                    'eslint-loader',
+                    eslintLoader,
                 ],
             },
             {
@@ -65,6 +68,9 @@ module.exports = {
                         name: 'font/[name].[ext]',
                     },
                 }],
+                include: [
+                    fontPath,
+                ],
             },
             {
                 test: /\.(jpg|jpeg|png|gif)$/,
@@ -74,6 +80,19 @@ module.exports = {
                         mimetype: 'image/png',
                     },
                 }],
+            },
+            {
+                test: /\.svg/,
+                use: [{
+                    loader: 'svg-url-loader',
+                    options: {
+                        limit: 10240,
+                        noquotes: true,
+                    },
+                }],
+                include: [
+                    picPath,
+                ],
             },
         ],
     },
