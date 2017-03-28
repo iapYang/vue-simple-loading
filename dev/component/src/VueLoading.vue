@@ -31,7 +31,12 @@ export default {
         FadingCircle,
         FoldingCube,
     },
-    props: ['spinner'],
+    props: {
+        spinner: {
+            type: String,
+            required: true,
+        },
+    },
 };
 </script>
 

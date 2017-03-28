@@ -1,3 +1,11 @@
+
+
+[![GitHub issues](https://img.shields.io/github/issues/iapYang/vue-simple-loading.svg?style=flat-square)](https://github.com/iapYang/vue-simple-loading/issues)
+[![GitHub forks](https://img.shields.io/github/forks/iapYang/vue-simple-loading.svg?style=flat-square)](https://github.com/iapYang/vue-simple-loading/network)
+[![GitHub stars](https://img.shields.io/github/stars/iapYang/vue-simple-loading.svg?style=flat-square)](https://github.com/iapYang/vue-simple-loading/stargazers)
+
+[![NPM](https://nodei.co/npm/vue-simple-loading.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-simple-loading/)
+
 # vue-simple-loading
 
 Thanks for [tobiasahlin/SpinKit](https://github.com/tobiasahlin/SpinKit). The css3 animation is copied from it.
@@ -5,6 +13,10 @@ Thanks for [tobiasahlin/SpinKit](https://github.com/tobiasahlin/SpinKit). The cs
 All the things I do is built it as a vue component.
 
 This project is built by vue 2.2.1, so you should update vue to at least version 2.
+
+## Changelog
+
+> v1.1.5 add props validator
 
 ## Usage
 
