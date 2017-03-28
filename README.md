@@ -52,7 +52,7 @@ spinners: [
 ],
 ```
 
-[Check it](https://iapyang.github.io/vue-simple-loading/#/)
+[Check it](https://iapyang.github.io/vue-simple-loading/)
 
 Add the 'spinner' prop, e.g.
 
