@@ -6,7 +6,7 @@
 </template>
 
 <script>
-import SwiperBox from './SwiperBox.vue';
+import SwiperBox from './layout/SwiperBox.vue';
 
 export default {
     components: {

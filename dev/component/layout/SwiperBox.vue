@@ -20,7 +20,7 @@
 </template>
 
 <script>
-import VueLoading from 'vue-simple-loading';
+import VueLoading from '../src/VueLoading.vue';
 import {swiper, swiperSlide} from 'vue-awesome-swiper';
 
 export default {
