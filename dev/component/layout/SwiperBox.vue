@@ -73,7 +73,7 @@ export default {
         }
 
         .swiper-button-next, .swiper-button-prev {
-            background-image: url('../image/arrow.svg');
+            background-image: url('../../image/ignore/arrow.svg');
         }
 
         .swiper-button-prev {
