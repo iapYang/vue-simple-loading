@@ -3,6 +3,7 @@
 [![GitHub issues](https://img.shields.io/github/issues/iapYang/vue-simple-loading.svg?style=flat-square)](https://github.com/iapYang/vue-simple-loading/issues)
 [![GitHub forks](https://img.shields.io/github/forks/iapYang/vue-simple-loading.svg?style=flat-square)](https://github.com/iapYang/vue-simple-loading/network)
 [![GitHub stars](https://img.shields.io/github/stars/iapYang/vue-simple-loading.svg?style=flat-square)](https://github.com/iapYang/vue-simple-loading/stargazers)
+[![npm](https://img.shields.io/npm/dt/vue-simple-loading.svg?style=flat)](https://www.npmjs.com/package/vue-simple-loading)
 
 [![NPM](https://nodei.co/npm/vue-simple-loading.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/vue-simple-loading/)
 
